@@ -1,0 +1,61 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[3].oneOf[13].use[5]!./app/contact-us/styles.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+#ContactUs #Info {
+  background-color: var(--primary-col);
+  margin: 1rem;
+  border-radius: 20px;
+  padding: 1rem;
+  color: var(--light-col);
+}
+#ContactUs #Info h2 {
+  font-size: 20px;
+  margin: 1rem;
+  text-align: center;
+}
+#ContactUs #Info #details {
+  margin-top: 2rem;
+  border-radius: 20px;
+  width: calc(100% - 2rem);
+  background-color: var(--triary-col);
+  padding: 1rem;
+  width: 50%;
+  min-width: 18rem;
+}
+#ContactUs #Info #details p {
+  margin-bottom: 1rem;
+}
+#ContactUs #Info #details :last-child {
+  margin-bottom: 0;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[3].oneOf[13].use[5]!./app/PageCover.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.PageCover {
+  height: 80vh;
+}
+.PageCover h1 {
+  position: absolute;
+  transform: translateY(40vh);
+  color: var(--light-col);
+  font-size: 80px;
+  text-align: center;
+  width: 100%;
+}
+@media screen and (max-width: 650px) {
+  .PageCover h1 {
+    font-size: 60px;
+  }
+}
+.PageCover img {
+  width: 100vw;
+  height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.PageCover #backdrop {
+  position: absolute;
+  width: 100vw;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.3);
+}
